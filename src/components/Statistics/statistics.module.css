@@ -1,0 +1,79 @@
+.statistics {
+  width: 300px;
+  margin: 0 auto;
+  border: 1px solid #b5bac0;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #6d6d6d;
+
+  padding: 20px 0;
+}
+
+.stat_list {
+  display: flex;
+  justify-content: center;
+}
+
+.item_wrap {
+  width: calc(100% / 5);
+}
+
+.item {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+}
+
+.label {
+  font-size: 14px;
+  font-weight: 300;
+
+  margin-bottom: 5px;
+}
+
+.percentage {
+  font-weight: 500;
+}
+
+.docx {
+  background: #7fc3f5;
+}
+
+.pdf {
+  background: #903eec;
+}
+.mp3 {
+  background: #c84c67;
+}
+
+.psd {
+  background: #6bb6c3;
+}
+
+.jpg {
+  background: #e75959;
+}
+
+.docx:hover,
+.pdf:hover,
+.mp3:hover,
+.psd:hover,
+.jpg:hover {
+  cursor: pointer;
+  box-shadow: rgba(255, 255, 255, 0.17) 0px -11px 12px 0px inset,
+    rgba(255, 255, 255, 0.15) 0px -18px 15px 0px inset,
+    rgba(255, 255, 255, 0.1) 0px -40px 20px 0px inset,
+    rgba(255, 255, 255, 0.06) 0px 2px 1px, rgba(255, 255, 255, 0.09) 0px 2px 1px,
+    rgba(255, 255, 255, 0.09) 0px 8px 4px, rgba(255, 255, 255, 0.09) 0px 8px 4px,
+    rgba(255, 255, 255, 0.09) 0px 16px 8px;
+}
